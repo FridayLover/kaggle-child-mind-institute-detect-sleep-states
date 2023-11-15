@@ -1,6 +1,6 @@
 name: DETR2DCNN
 params:
-  encoder_name: resnet34
+  encoder_name: resnet101
   encoder_weights: imagenet
   max_det: 15
   hidden_dim: 256
