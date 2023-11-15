@@ -1,4 +1,0 @@
-name: MiT
-params:
-  encoder_name: mit_b2
-  encoder_weights: imagenet
