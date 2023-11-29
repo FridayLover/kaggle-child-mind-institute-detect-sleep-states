@@ -53,8 +53,6 @@ labels:
 features:
   - "anglez"
   - "enmo"
-  - "month_sin"
-  - "month_cos"
   - "hour_sin"
   - "hour_cos"
   - "anglez_sin"
