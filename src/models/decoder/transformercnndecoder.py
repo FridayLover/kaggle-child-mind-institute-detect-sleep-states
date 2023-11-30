@@ -38,7 +38,7 @@ class CNNHead(nn.Module):
 
         # residual connection
         for conv, bn in zip(self.convs, self.bns):
-            x = F.relu(x)
+            x = F.gelu(x)
             x = bn(conv(x)) + x
 
         x = x.transpose(1, 2)  # (batch_size, n_timesteps, n_channels)
