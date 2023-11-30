@@ -2,5 +2,5 @@ name: TransformerCNNDecoder
 params:
   hidden_size: 512
   num_layers: 8
-  nhead: 8
-  dropout: 0.2
+  nhead: 4
+  dropout: 0.1
