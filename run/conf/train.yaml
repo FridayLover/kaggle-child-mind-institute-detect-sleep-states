@@ -15,7 +15,7 @@ defaults:
   - dataset: seg
   - model: Spec2DCNN
   - feature_extractor: CNNSpectrogram
-  - decoder: TransformerCNNDecoder #UNet1DDecoder
+  - decoder: UNet1DDecoder
   - split: fold_0
 
 seed: 42
@@ -62,10 +62,10 @@ features:
   # - "month_sin"
   # - "month_cos"
   - "hour_sin"
-  - "hour_cos"
+  # - "hour_cos"
   # - "minute_sin"
   # - "minute_cos"
-  # - "anglez_sin"
+  - "anglez_sin"
   # - "anglez_cos"
 
 # optimizer
